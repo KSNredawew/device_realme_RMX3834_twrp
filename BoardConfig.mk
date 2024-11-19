@@ -1,4 +1,4 @@
-#
+W#
 # Copyright (C) 2022 The TWRP Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,6 +15,12 @@
 #
 
 DEVICE_PATH := device/realme/RMX3834
+
+# Build Hack
+BUILD_BROKEN_DUP_RULES := true
+
+# Building with minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
 
 # A/B
 AB_OTA_UPDATER := true
