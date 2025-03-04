@@ -149,6 +149,9 @@ TW_DEVICE_VERSION := Git_FASTBOOT
 TARGET_USES_LOGD := true
 TWRP_INCLUDE_LOGCAT := true
 
+# Temp
+TW_CUSTOM_CPU_TEMP_PATH := sys/devices/virtual/thermal/thermal_zone16/temp
+
 #prop
 TW_INCLUDE_LIBRESETPROP := true
 TW_INCLUDE_RESETPROP := true
